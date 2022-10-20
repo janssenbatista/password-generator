@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/checkbox-container.css" />
+    <link rel="stylesheet" href="css/input-container.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <main>
+      <div class="input-container">
+        <h2>Password Generator</h2>
+        <input type="text" id="password-input" />
+        <button id="copy-button">Copy</button>
+      </div>
+      <div class="input-container">
+        <label for="password-length">Length</label>
+        <input type="number" value="8" min="8" id="password-lenght-input" />
+      </div>
+      <div class="checkbox-container">
+        <input type="checkbox" id="cbUpperCase" checked />
+        <label for="cbUpperCase">A-Z</label>
+        <input type="checkbox" id="cbLowerCase" checked />
+        <label for="cbLowercase">a-z</label>
+        <input type="checkbox" id="cbNumbers" checked />
+        <label for="cbNumbers">0-9</label>
+        <input type="checkbox" id="cbSymbols" checked />
+        <label for="cbSymbols">!@#$%&*</label>
+      </div>
+      <button id="generate-password-button">Generate Password</button>
+      <script src="js/script.js"></script>
+    </main>
+  </body>
+</html>
