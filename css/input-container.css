@@ -1,3 +1,31 @@
 .input-container {
-    margin-top: 16px;
+  margin-top: 16px;
+  align-items: center;
+}
+
+.input-container label {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.input-container button {
+  padding: 6px 15px;
+}
+
+.input-container #password-input {
+  width: 300px;
+  height: 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.input-container #password-lenght-input {
+  width: 190px;
+  height: 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
 }

@@ -5,18 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/checkbox-container.css" />
     <link rel="stylesheet" href="css/input-container.css" />
     <link rel="stylesheet" href="css/button.css" />
     <title>Password Generator</title>
   </head>
-  <body>
+  <body id="app">
     <main>
+      <h2>Password Generator</h2>
       <div class="input-container">
-        <h2>Password Generator</h2>
         <input type="text" id="password-input" />
-        <button id="copy-button">Copy</button>
+        <button id="copy-button" class="button">Copy</button>
       </div>
       <div class="input-container">
         <label for="password-length">Length</label>
@@ -32,7 +40,9 @@
         <input type="checkbox" id="cbSymbols" checked />
         <label for="cbSymbols">!@#$%&*</label>
       </div>
-      <button id="generate-password-button">Generate Password</button>
+      <button id="generate-password-button" class="button">
+        Generate Password
+      </button>
       <script src="js/script.js"></script>
     </main>
   </body>
