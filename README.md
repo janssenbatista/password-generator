@@ -1,3 +1,3 @@
 # A SIMPLE PASSWORD GENERATOR
 
-*In progress...*
+<img src="assets/screenshots/screen.png" alt="App Screenshot" />
