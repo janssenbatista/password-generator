@@ -1,14 +1,13 @@
 # A PASSWORD GENERATOR
 
 <div style="display: flex; justify-content: space-evenly;">
-<img src="assets/screenshots/screen-c.png" alt="App Screenshot" width="441px" height="325px"/>
-<img src="assets/screenshots/screen.gif" alt="App Screenshot" width="441px" height="325px"/>
+<img src="assets/screenshots/screen-c.png" alt="App Screenshot" width="45%" />
+<img src="assets/screenshots/screen.gif" alt="App Screenshot" width="45%" />
 </div>
-
 
 ### Run the application
 
-- Open the file *index.html* in your web browser
+- Open the file _index.html_ in your web browser
 
 ### Run into an apache container
 
@@ -45,4 +44,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
